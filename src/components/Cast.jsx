@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { CastElement, CastImg, CastList } from './Cast.styled';
 
 // https://api.themoviedb.org/3/movie/{movie_id}/credits?api_key=<<api_key>>
-const api_key = 'cbd8bb6ab7443496075b168356471aed';
+const api_key = 'a84d97df77921338135d279eaee16d48';
 const url = `https://api.themoviedb.org/3/movie/`;
 
 const Cast = () => {
