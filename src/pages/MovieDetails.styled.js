@@ -8,12 +8,13 @@ export const MovieBlock = styled.div`
 `;
 
 export const ButtonBack = styled.button`
-  margin: 10px;
-  border-radius: 8px;
+  margin: 30px;
+  border-radius: 5px;
   color: blue;
-  background-color: grey;
+  background-color: #808080;
   &:hover {
-    scale: 1.3;
+    background-color: white;
+    scale: 1.1;
   }
 `;
 

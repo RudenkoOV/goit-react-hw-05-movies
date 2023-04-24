@@ -13,7 +13,7 @@ const Layout = () => {
           <NavLink to="/movies">Movies</NavLink>
         </NavItem>
       </NavList>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Идет загрузка, ожидайте ...</div>}>
         <Outlet />
       </Suspense>
     </header>

@@ -19,7 +19,7 @@ const Cast = () => {
   }, [movieId]);
 
   if (!cast) {
-    return <b>Loading...</b>;
+    return <b>Идет загрузка, ожидайте ...</b>;
   }
   if (cast.length === 0) {
     return <p>We don't have any information.</p>
