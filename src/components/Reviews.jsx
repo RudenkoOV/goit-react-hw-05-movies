@@ -18,7 +18,7 @@ const Reviews = () => {
     fetchData();
   }, [movieId]);
   if (!reviews) {
-    return <b>Loading...</b>;
+    return <b>Идет загрузка, ожидайте ...</b>;
   }
   if (reviews.length === 0) {
     return <p>We don't have any reviews for this movie...</p>
